@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    overflow: scroll;
+}
+nav{
+    background-color: #636c79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 2.5rem 0rem 4rem;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    color: aliceblue;
+    font-size: 1.5vw;
+
+}
+
+.logo{
+    height: 40px;
+    width: 100px;
+}
+
+nav button{
+    background: transparent;
+    border: 1px solid rgb(146, 144, 144);
+    color: aliceblue;
+    width: 8rem;
+    height: 3rem;
+    margin-left: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* ---------Hero-section--------------- */
+
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #636c79;
+    padding: 3rem 4rem 5rem 4rem;
+    margin-bottom:  3rem;
+
+}
+
+
+.hero-img{
+    width: 32vw;
+    height: 30rem;
+}
+.hero-left img{
+    width: 100%;
+    height: 100%; 
+     object-fit: cover;
+}
+
+.hero-right{
+    color: aliceblue;
+    padding: 2rem 2rem 1rem 0rem;
+}
+
+.hero-right h1{
+    font-size: 5vw;
+    font-family: Raleway;
+}
+.hero-right p{
+    font-size: 1.5vw;
+    margin-top: 2rem;
+}
+
+.hero-right input{
+    background-color: #fff;
+    height: 3.5rem;
+    width: 35vw;
+    border: none;
+}
+
+.btn{
+    background-color: #65b38d;
+    border: none;
+    height: 3rem;
+    width: 10vw;
+    color: #fff;
+
+}
+
+.contact-gmail{
+    display: flex;
+    padding-top: 2rem;
+}
+
+.contact-gmail .btn{
+    position: relative;
+    right: 8.3rem;
+    top: 0.3rem;
+}
+
+
+/* ---------------Target-Section------------ */
+
+.Target-section{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem 3rem 0rem;
+    padding: 2rem 4rem 2rem 4rem;
+
+}
+.target-img {
+    width: 85vw;
+    height: 85vh;
+
+}
+.target-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.target-heading{
+    text-align: center;
+    font-size: 2vw;
+    font-family: Raleway;
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin: 3rem 0 3rem 0;
+}
+
+.stats h4{
+    font-size: 2.5vw;
+    text-align: center;
+}
+.stats p{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+
+
+/* ----------Web-Designer-section------- */
+
+
+.web-design-section{
+    padding: 3rem 5rem 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-haed{
+    
+    text-align: center;
+    font-size: 2vw;
+    font-family: Raleway;
+
+}
+.web-body{
+    display: flex;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+
+ h2{
+    font-size: 3vw;
+    font-family: Raleway;
+}
+.web-left p{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #636c79;
+}
+
+
+.web-left button{
+
+    margin-top: 3rem;
+    color: #fff;
+}
+.web-section-img {
+    width: 40vw;
+    height: 20rem;
+   
+
+}
+.web-section-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+
+}
+
+/* section-2 */
+
+.web-section-img-2 {
+    width: 35vw;
+    height: 90vh;
+   
+}
+.web-section-img-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+   
+}
+
+/* Team-section */
+
+.team-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.team-section-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.team-members{
+    display: flex;
+    justify-content: space-between;
+    width:  90vw;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.team-members h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mem-img{
+    width:25vw;
+    height: 30rem;
+}
+
+.mem-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/* ----------------footer-section------------------- */
+
+footer{
+    background-color: #10181d;
+    padding: 2rem 5rem 3rem 5rem;
+    color: #fff;
+}
+
+.foot-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 2.5vw;
+}
+ul{
+    list-style-type: none;
+}
+
+.social-icons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+footer .hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.093);
+    width: 100%;
+    display: block;
+}
+
+
+.footer-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.navbar-list{
+    font-size: 1.5vw;
+}
+.navbar-list ul{
+
+    color:#c1c2c2;
+    margin-top: 1rem;
+}
+/* -----------------------------------------Media-section------------------------------------------- */
+@media only screen and (max-width: 920px) {
+    
+    nav{
+        overflow: scroll;
+    }
+    .section-1, .section-3{
+        flex-direction: column-reverse;
+    }
+    
+    
+}
